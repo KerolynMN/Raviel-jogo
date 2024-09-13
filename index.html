@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>níbrama ou humano?</title>
+
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-1.png" alt="império">
+            <p>No império de Isla, níbramas são humanos meio animais, usados como escravos. Você está jogando com
+                Raviel, um níbrama capacho que está em uma missão, dada pelo vilão, de descobrir se uma menininha também
+                é da mesma espécie dele.</p>
+            <button class="b-prox" data-proximo="1">
+                procurar na floresta
+            </button>
+            <button class="b-prox" data-proximo="2"> procurar no Marquesado Garden</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-0.png" alt="floresta">
+            <p> Você decidiu procurar na floresta, onde há poucas pistas já que foi onde a níbrama foi vista pela ultima
+                vez, e agora?</p>
+            <button class="b-prox" data-proximo="3">
+                olhar mais um pouco adentro da floresta
+            </button>
+            <button class="b-prox" data-proximo="4"> desistir e sofrer as punições de seu mestre.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-3.png" alt="Mikaella">
+            <p>Procurando até se cansar, você encontra a filha da segunda linhagem, Mikaella, andando com uma níbrama
+                desconhecida. Cabelos Brancos, olhos amarelos e pernas de pássaro, junto a asas mal desenvolvidas ao
+                longo do braço. Seu mestre te mandou apenas olhar e relatar, o que fazer? </p>
+            <button class="b-prox" data-proximo="5">
+                Continuar olhando de longe, escondido nas árvores
+            </button>
+            <button class="b-prox" data-proximo="6"> se revelar e descobrir quem é a níbrama.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p> você localizou a níbrama que seu chefe precisa, agora só precisa relatar que será recompensado com sua
+                liberdade.
+                <button class="b-prox" data-proximo="5">
+                    Relatar e ser livre
+                </button>
+                <button class="b-prox" data-proximo="4"> fugir</button>
+            </p>
+
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-4.png" alt="final ruim">
+            <p> você não conseguiu fugir. Rasefim te caçou e você foi de vasco.</p>
+
+
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-5.png" alt="final bom">
+            <p>
+                você relatou e saiu vivo. final feliz até a próxima aventura.
+            </p>
+
+
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-4.png" alt="final ruim">
+            <p>
+                Mikaella reagiu ao ataque e você perdeu. Fim de jogo. final ruim
+            </p>
+
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
